@@ -22,16 +22,29 @@ The codes are presented sequentially in subfolders:
     * Subset to Europeans
     * Relatedness within entire merged set analyzed
     * PCA completed on unrelated European set
-    * PCs used to match cases and controls
 1. Secondary analyses to filter GWAS SNPs
     * Control-specific HWE filter
     * GWAS with alternative controls
     * GWAS with alternative imputation pipeline
 1. Sex-Stratified GWAS
-
-
-
+    * Sex-specific PC-based case-control matching
+    * Sex-specific GWAS completed
+    * Additional SNPs removed based on secondary analyses
 
 # Data Access
 
+(To copy statements from manuscript.)
+
 # Computational Environment
+
+The conda environment .yml file is included in this repository for referencing fine details of package versions.
+
+Some primary programs and their versions:
+
+* GNU bash, version 5.1.8(1)
+* R version 3.6.3
+* plink 1.90b7.7
+* plink2 2.0.0a6.9 
+* KING 2.2.7
+* Grafpop version published 04/05/2021
+* PCAmatchR version 0.3.3
