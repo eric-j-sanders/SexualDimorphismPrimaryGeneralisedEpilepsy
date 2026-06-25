@@ -12,7 +12,7 @@ When the codes in this folder are executed, the SFS control data are filtered to
 
 # Primary outputs
 
-plink2 format files for both the genotyped and imputed data, that have been subset to individuals with probable/definite JME:
+plink2 format files for both the genotyped and imputed data, that have been subset to individuals without neuropsychiatric conditions:
 
 * pgen/psam/pvar files with relative pathing prefix intdata/07-SFS_prepared_genotype_nopsych
 * pgen/psam/pvar files with relative pathing prefix intdata/07-SFS_prepared_imputed_nopsych

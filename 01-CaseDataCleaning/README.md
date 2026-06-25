@@ -47,7 +47,7 @@ In bash, reformat data:
 
 ```{bash}
 # Subset BIOJUME data
-plink2 --bfile /hpf/largeprojects/struglis/datasets/epilepsy/snp_array/qc_data/BIOJUME_R1234567 --keep intdata/08-BIOJUME_JME_ids.txt --make-pgen --out intdata/08-BIOJUME_JME
+plink2 --bfile rawdata/BIOJUME_R1234567 --keep intdata/08-BIOJUME_JME_ids.txt --make-pgen --out intdata/08-BIOJUME_JME
 
 # Replace hyphens with underscores in psam file
 sed 's/-/_/g' intdata/08-BIOJUME_JME.psam > tmp.txt
@@ -84,7 +84,7 @@ for chr in {1..22} X; do
   echo "Beginning Chr $chr"
   
   # Specify the path to original VCF file
-  vcf_file="/hpf/largeprojects/struglis/datasets/epilepsy/snp_array/imputed/filtered/BIOJUME_R1234567.rsq08.chr${chr}.vcf.gz"
+  vcf_file="rawdata/BIOJUME_R1234567.rsq08.chr${chr}.vcf.gz"
   
   # Specify the path for the updated VCF file
   output_file="intdata/08-BIOJUME_imputed_chr${chr}.dose.vcf"
