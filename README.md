@@ -1,12 +1,12 @@
 # Project Overview
 
-This repository contains copy of the code used to prepare data, complete analysis, and generate figures/tables as presented in the manuscript "Sexual Dimorphism in the Genetics of Primary Generalised Epilepsy" (link). This study completes sex-stratified GWAS of juvenile myoclonic epilepsy (JME), 
+This repository contains copy of the code used to prepare data, complete analysis, and generate figures/tables as presented in the manuscript "Sexual Dimorphism in the Genetics of Primary Generalised Epilepsy" (link). This study completes sex-stratified GWAS of juvenile myoclonic epilepsy (JME).
 
 # Pipeline Description
 
 The intention is not for the contents of this repo to allow out-of-the-box replication of results (see Data Availability statement below).
 
-The original project had all code executed from the same directory with subfolders such as "rawdata" (for raw source data), "intdata" (for intermediate data), etc., but for clarity within this repo, the file structure has been altered to allow ease of review. This was done without changing the file pathing within the code itself, so the file paths in the code do not reflect the altered subfolders of this repo.
+The original project had all code executed from the same directory with subfolders such as "rawdata" (for raw source data), "intdata" (for intermediate data), etc., but for clarity within this repo the file structure has been altered to allow ease of review. This was done without changing the file pathing within the code itself, so the file paths in the code do not reflect the altered subfolders of this repo.
 
 The codes are presented sequentially in subfolders:
 
@@ -25,7 +25,7 @@ The codes are presented sequentially in subfolders:
 1. Secondary analyses to filter GWAS SNPs
     * Control-specific HWE filter
     * GWAS with alternative controls
-    * GWAS with alternative imputation pipeline
+    * Alternative imputation pipeline, allele frequency testing
 1. Sex-Stratified GWAS
     * Sex-specific PC-based case-control matching
     * Sex-specific GWAS completed
