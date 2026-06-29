@@ -17,8 +17,6 @@ plink2 format files for both the genotyped and imputed data, that have been subs
 * pgen/psam/pvar files with relative pathing prefix intdata/09-BIOJUME_prepared_genotype
 * pgen/psam/pvar files with relative pathing prefix intdata/09-BIOJUME_prepared_imputed
 
-
-
 # Code
 
 ## Subset and Format Genotype Data

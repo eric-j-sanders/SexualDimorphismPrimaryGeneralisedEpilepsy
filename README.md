@@ -30,6 +30,21 @@ The codes are presented sequentially in subfolders:
     * Sex-specific PC-based case-control matching
     * Sex-specific GWAS completed
     * Additional SNPs removed based on secondary analyses
+    * Creating Manhattan plot
+1. Male-Female Comparison of Summary Statistics
+    * Cochran's Q Statistics and Heterogeneity Lambda GC
+    * GPS-GEV Test
+    * IVW Meta-Analysis
+1. Gene-Based analysis
+    * FUMA SNP2GENE gene annotation
+    * FUMA GENE2FUNC enrichment analysis
+1. Colocalization Analysis
+    * Sex-Specific GWAS statistic subsets around peak loci
+    * Sex-specific LD matrices around peak loci
+    * Sex-specific eQTL statistics around peak loci
+1. Polygenic Risk Score Calculation
+    * Calculation of Neuroticism PRS in Case-Control cohort
+    * Testing of association between neuroticism PRS and JME risk
 
 # Data Access
 
@@ -48,3 +63,4 @@ Some primary programs and their versions:
 * KING 2.2.7
 * Grafpop version published 04/05/2021
 * PCAmatchR version 0.3.3
+* FUMA browser tool V2_r204_3510window

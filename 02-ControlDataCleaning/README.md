@@ -1,6 +1,6 @@
 # Purpose
 
-When the codes in this folder are executed, the SFS control data are filtered to European-ancestry individuals without inferred/suspected/diagnosed psychiatric disorders, and have some formatting changes to facilitate merging with controls. Genetic ancestry is also inferred.
+When the codes in this folder are executed, the SFS control data are filtered to European-ancestry individuals without inferred/suspected/diagnosed psychiatric disorders, and have some formatting changes to facilitate merging with cases. Genetic ancestry is also inferred.
 
 # Input files
 

@@ -13,6 +13,7 @@ When the codes in this folder are executed, the BIOJUME case data are merged wit
 # Primary outputs
 
 * A set of pgen/psam/pvar files in plink format representing all the European-ancestry merged case and control imputed genotype data, for the JME-positive patients and controls without neuropsychiatric conditions, with relative pathing prefix intdata/14-merge_imputed_eur_unrel
+* A set of pgen/psam/pvar files in plink format representing all the European-ancestry merged case and control genotyped data (not imputed), for the JME-positive patients and controls without neuropsychiatric conditions, with relative pathing prefix intdata/14-merge_genotype_eur_unrel
 * PCA results on the noted merged population, saved to relative paths intdata/16-pca_res.eigenvec and intdata/16-pca_res.eigenval
 * A text file containing the sex, case/control status, and first 10 PCs for all the merged cases and controls, saved to relative path intdata/17-eur_unrel_pheno.txt
 
